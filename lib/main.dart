@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
       title: 'chatbot',
       theme: ThemeData.light(useMaterial3: true).copyWith(
         scaffoldBackgroundColor: Pallete.whiteColor,
+        appBarTheme: const AppBarTheme(
+          backgroundColor: Pallete.whiteColor,
+        )
       ),
       home: HomePage(),
     );
